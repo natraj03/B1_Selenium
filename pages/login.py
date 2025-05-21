@@ -17,3 +17,10 @@ def password(password):
 
 def signIn():
     myDriver.find_element(By.XPATH,"//div[@class='login-form--footer']//input[@name='login']").click()
+
+def forgetPassword():
+    myDriver.find_element(By.XPATH,"//div[@class='login-links']/a[@href='/account/lost_password']").click()
+
+def createNweAccount():
+    myDriver.find_element(By.XPATH,"//div[@class='login-links']/a[@title='Create a new account']").click()
+

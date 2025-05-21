@@ -1,4 +1,4 @@
-from pages.login import username, password,signIn, openLoginPage
+from pages.login import username, password,signIn, openLoginPage, forgetPassword, createNweAccount
 
 
 def test_success():
@@ -23,3 +23,11 @@ def test_wrongCredential():
 def test_Emptysubmit():
     openLoginPage()
     signIn()
+
+def test_openForget():
+    openLoginPage()
+    forgetPassword()
+
+def test_Createaccount():
+    openLoginPage()
+    createNweAccount()
