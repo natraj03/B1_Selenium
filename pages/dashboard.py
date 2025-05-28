@@ -1,12 +1,13 @@
 import time
 from selenium.webdriver.common.by import By
-from Constants.configs import base_URL
+from Constants.configs import base_URL,work_packages_url
 
 
 
 class Dashboard:
     def __init__(self, driver):
         self.driver = driver
+
 
     def openMyproject(self):
         self.driver.get(f"{base_URL}/projects/5/?jump=angular")
@@ -28,5 +29,5 @@ class Dashboard:
         self.driver.find_element(By.XPATH,"//a[@href='/projects/batch-b1/work_packages/create_new?type=1']").click()
 
     def openPackages(self):
-        self.driver.get(f"{base_URL}/projects/batch-b1/work_packages")
+        self.driver.get(work_packages_url)
         time.sleep(10)
