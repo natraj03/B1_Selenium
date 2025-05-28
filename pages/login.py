@@ -1,4 +1,5 @@
 import time
+from Constants.configs import base_URL
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
@@ -8,12 +9,12 @@ class Login:
         self.driver = driver
 
     def openMyproject(self):
-        self.driver.get("http://65.0.30.232:8090/projects/5/?jump=angular")
+        self.driver.get(f"{base_URL}/projects/5/?jump=angular")
         # http://65.0.30.232:8090/projects/5/?jump=angular
         time.sleep(5)
 
     def openLoginPage(self):
-        self.driver.get("http://65.0.30.232:8090/login")
+        self.driver.get(f"{base_URL}/login")
         time.sleep(5)
 
     def username(self,username):

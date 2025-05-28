@@ -1,6 +1,6 @@
 import time
 from selenium.webdriver.common.by import By
-
+from Constants.configs import base_URL
 
 
 class Logout:
@@ -8,7 +8,7 @@ class Logout:
         self.driver = driver
 
     def openDashboardPage(self):
-        self.driver.get("http://65.0.30.232:8090/")
+        self.driver.get(f"{base_URL}")
         time.sleep(5)
 
     def userMenuLogo(self):
