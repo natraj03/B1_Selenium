@@ -25,9 +25,12 @@ def setup_function():
 
 
 def teardown_function():
-    global driver
-    # if driver:
-        # driver.quit()
+    global driver1
+    # if driver1:
+        # driver1.quit()
+    global driver2
+    # if driver2:
+        # driver2.quit()
     global workbook
     if workbook:
         workbook.close()

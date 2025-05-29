@@ -18,7 +18,7 @@ def test_alerts():
     driver.get("https://demoqa.com/alerts")
     time.sleep(30)
     scrollTilElement = '//button[@id="promtButton"]'
-    driver.execute_script("arguments[0].scrollTop += 100", scrollTilElement)
+    driver.execute_script("arguments[0].scrollTop += 200", scrollTilElement)
 
     # ---------- Simple Alert ----------
     # Click the button to trigger a simple alert
@@ -50,7 +50,7 @@ def test_alerts():
     print("Prompt Alert Text:", prompt_alert.text)
     prompt_alert.send_keys("Selenium Test")
     time.sleep(15)
-    # prompt_alert.accept()
+    prompt_alert.accept()
 
     # Clean up
     # time.sleep(2)

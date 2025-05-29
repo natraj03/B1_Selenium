@@ -14,7 +14,7 @@ def getChromeDriver():
     # # ✅ Use Service() with path to chromedriver
     myService = Service("/Users/apple/Documents/chromedriver/136chromedriver-mac-x64/chromedriver")
     driver = webdriver.Chrome(service=myService, options=options)
-
+    driver.maximize_window()
     return driver
 
 def getFirefoxDriver():
