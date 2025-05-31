@@ -20,5 +20,9 @@ def litu():
 
 def satya():
     print('im from odisha')
+    print('im 21 years old')
+    print('im a QA engineer')
+    print('im a very poor boy')
+
 
 
