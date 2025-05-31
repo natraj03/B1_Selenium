@@ -12,6 +12,11 @@ def srikanth():
 def litu():
     print("hello litu")
 
+    numl = int(input('Enter a number:'))
+    num2 = int(input('Enter a number:'))
+    num3 = numl+num2
+
+
 
 def satya():
     print('im from odisha')
