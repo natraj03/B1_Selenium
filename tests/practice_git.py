@@ -10,7 +10,7 @@ def srikanth():
     print("hello Srikanth")
 
 def litu():
-    print("hello litu")
+    print("hello litu"):
     print('what do you do bro')
 
 def satya():
@@ -18,6 +18,10 @@ def satya():
     print('im 21 years old')
     print('im a QA engineer')
     print('im a very poor boy')
+
+
+def satya2():
+    print('i know everything is automation testing')
 
 
 
