@@ -8,3 +8,8 @@ def Prajna():
 Prajna()
 def srikanth():
     print("hello Srikanth")
+
+
+
+def satya():
+    print('im from odisha')
