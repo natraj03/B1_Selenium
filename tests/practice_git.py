@@ -9,7 +9,11 @@ Prajna()
 def srikanth():
     print("hello Srikanth")
 
+def litu():
+    print("hello litu")
 
 
 def satya():
     print('im from odisha')
+
+
