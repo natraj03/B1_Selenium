@@ -11,9 +11,13 @@ def srikanth():
 
 def litu():
     print("hello litu")
-
+    print('what do you do bro')
 
 def satya():
     print('im from odisha')
+    print('im 21 years old')
+    print('im a QA engineer')
+    print('im a very poor boy')
+
 
 
