@@ -49,3 +49,6 @@ def clickCreatebutton():
 def clickCreatebutton_task():
     # //a[@class="menu-item __hl_inline_type_1"]
     myDriver.find_element(By.XPATH,"//a[@href='/projects/batch-b1/work_packages/create_new?type=1']").click()
+
+def new Task():
+    myDriver.find_element()

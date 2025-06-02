@@ -34,4 +34,8 @@ def satya2():
     print('i know everything is automation testing')
 
 
+def pabitra1():
+    print("good morning")
+
+
 
